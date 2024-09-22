@@ -19,8 +19,10 @@ Instalasi Composer : https://getcomposer.org/download/
 1. Git clone atau download project melalui github
 2. Menyalakan Apache Server dan MySQL Database di XAMPP
 3. Setting nama database pada file .env (baris DB_DATABASE)
-4. php artisan migrate pada terminal untuk migrasi tabel database
-5. php artisan db:seed pada terminal. Penilaian menggunakan metode automation testing yang dimana pada contoh soal di create order memerlukan product dengan id 2 dan 3 yang sebelumnya belum pernah dibuat. oleh karena itu saya berikan sample data seeder agar penilai bisa melakukan automation testing sekali klik tanpa perlu menambah data manual.
-6. php artisan serve di terminal untuk menjalankan project
+4. composer install pada terminal untuk mendapatkan file vendor
+5. php artisan key:generate pada terminal untuk generate key pada env
+6. php artisan migrate pada terminal untuk migrasi tabel database
+7. php artisan db:seed pada terminal. Penilaian menggunakan metode automation testing yang dimana pada contoh soal di create order memerlukan product dengan id 2 dan 3 yang sebelumnya belum pernah dibuat. oleh karena itu saya berikan sample data seeder agar penilai bisa melakukan automation testing sekali klik tanpa perlu menambah data manual.
+8. php artisan serve di terminal untuk menjalankan project
 
 [Link XAMPP]: <https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.1.25/xampp-windows-x64-8.1.25-0-VS16-installer.exe>
